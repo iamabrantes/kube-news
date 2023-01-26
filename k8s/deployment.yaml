@@ -56,7 +56,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: jonathanabrantes/kube-news:v1
+          image: jonathanabrantes/kube-news:{{tag}}
           env:
             - name: DB_HOST
               value: "postgre"
